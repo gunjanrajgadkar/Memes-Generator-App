@@ -1,0 +1,153 @@
+html{
+    background: linear-gradient(to bottom, #8ed6ee 0%, #f58ac0 100%);
+    font-size: 5mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+image-resolution: inherit;
+    padding: 40px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+      
+    
+    
+    
+}
+head{
+    background-attachment: rgb(192, 240, 255);
+    padding: 40px 40px;
+    text-align: center;
+    margin: 20px;
+    object-position: center;
+    
+}
+H1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset;
+    color: black;
+
+
+}
+hr{
+    border: 2px dashed rgb(59, 18, 204);
+    width:250px;
+    margin-top: 5px;
+    
+}
+body{
+   
+    border-color: rgb(58, 8, 151);
+    box-shadow: 20px30px 0px;
+    border: 10px 10px 10px 10px rgb(110, 32, 32);
+    text-align: center;
+    margin: 40px;
+    object-position: center;
+    padding: auto;
+    
+}
+div s{
+    box-shadow: 10px 10px 20px blueviolet;
+    box-decoration-break: clone;
+    padding:50px;
+    margin: 5px ;
+    border-end-end-radius: 5px green;
+    
+}
+div t{
+    padding: auto;
+    margin: 10px;
+}
+
+h1 div img{
+    display: inline-block;
+    border-radius:15% ;
+    box-shadow: 10px 10px 5px rgb(194, 46, 169);
+}
+input[type=button] {  
+    width: 60px;  
+    height: 60px;  
+      
+    padding: 15px 10px;  
+    margin: 5px;  
+    box-sizing: border-box;  
+    background: #ecedef;  
+    border: groove;  
+    font-size: 30px; 
+    font-style: italic; 
+    line-height: 30px;  
+    border-radius: 30%;  
+  
+    font-weight: bold;
+ background-color: #ebc7bfea;  
+    cursor: pointer;  
+    box-shadow: 5px 5px 0px rgb(72, 32, 218);  
+  margin: 13px;
+    display:inline-block;
+    position: relative;
+    display: inline-block;
+  border-radius: 20%;
+  box-shadow: 10px 10px 10px rgb(29, 24, 26);
+   transition-duration: 1s;
+   transition-property: all;
+
+   -o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+  input[type="text"] {  
+    width: 270px;  
+    height: 60px;  
+    float: left;  
+    padding: 0;  
+    box-sizing: border-box;  
+    border:papayawhip;  
+    background: none;  
+    display: inline-block;
+    color: red;  
+    text-align: right;  
+    font-weight: 700;  
+    font-size: 60px;  
+    line-height: 60px;  
+    margin: 0 25px;  
+    
+    position: relative;
+  
+  
+    }  
+  .calculator {  
+    
+      border: radius 2px;
+    
+  }  
+  #display {  
+    height: 40px;  
+   margin: auto;
+   margin-right: 20px;
+    text-align: right;  
+    background-color: rgb(213, 223, 230) ;
+    border: 3px solid white;  
+    font-size: 18px;  
+    left: 2px;  
+    top: 2px;  
+    color: rgb(24, 21, 226); 
+    
+margin: auto;
+    padding: 2px;
+    border-radius:5px ;
+    box-shadow: 4px 5px 5px indigo;
+  }  
+  div-2{  
+      display: inline-flexbox;
+      
+  }
+  hr{
+      border: 2px dashed rgb(59, 18, 204);
+      width:250px;
+      margin-top: 5px;
+  }
+  input[type=button]:hover{
+      cursor: pointer;
+    transform: rotate(45deg);
+  
+    border-radius: 2px;
+  }

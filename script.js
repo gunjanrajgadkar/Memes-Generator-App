@@ -4,7 +4,7 @@ let genMemeBtn = document.getElementById("generate-meme-btn");
 let url = "https://meme-api.herokuapp.com/gimme/";
 
 let subreddits = ["catmemes","wholesomememes","dogmemes",
-    "me_irl","dankmemes","Animemes"];
+    "me_irl","dankmemes","Animemes","funny"];
 
 let getMeme = () => {
     let randomSubreddit = subreddits[Math.floor(Math.random() * subreddits.length)];

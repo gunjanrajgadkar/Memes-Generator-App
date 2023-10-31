@@ -3,7 +3,7 @@ let title = document.getElementById("title");
 let genMemeBtn = document.getElementById("generate-meme-btn");
 let url = "https://meme-api.com/gimme/";
 
-let subreddits = ["raimimemes","catmemes","wholesomememes","dogmemes",
+let subreddits = ["raimimemes",,"ProgrammerHumor","catmemes","wholesomememes","dogmemes",
     "me_irl","dankmemes","Animemes","funny"];
 
 let getMeme = () => {

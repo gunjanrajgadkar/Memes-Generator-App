@@ -1,7 +1,7 @@
 let meme = document.getElementById("meme");
 let title = document.getElementById("title");
 let genMemeBtn = document.getElementById("generate-meme-btn");
-let url = "https://meme-api.herokuapp.com/gimme/";
+let url = "https://meme-api.com/gimme/";
 
 let subreddits = ["catmemes","wholesomememes","dogmemes",
     "me_irl","dankmemes","Animemes","funny"];

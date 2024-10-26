@@ -1,6 +1,7 @@
 let meme = document.getElementById("meme");
 let title = document.getElementById("title");
 let genMemeBtn = document.getElementById("generate-meme-btn");
+let subredditName = document.getElementById("subreddit");
 let url = "https://meme-api.com/gimme/";
 
 let subreddits = ["raimimemes","marvelmemes","ProgrammerHumor","catmemes","wholesomememes","dogmemes",
@@ -14,8 +15,9 @@ let getMeme = () => {
         let memeImg = new Image();
         memeImg.onload = () => {
             meme.src = data.url;
-            title.innerHTML = data.title;
+            title.innerHTML = data.title; 
         };
+        subredditName.innerHTML = data.subreddit;
         memeImg.src = data.url;
     })
 };

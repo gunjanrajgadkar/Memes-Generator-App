@@ -62,6 +62,12 @@ body{
     text-align: center;
 }
 
+.subreddit-title{
+    color: red;
+    margin: 1em auto 0.1rem auto;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px){
     .container {
         font-size: 14px;

@@ -54,6 +54,7 @@ The app fetches memes from the following popular subreddits:
 - 🦸 r/raimimemes
 - 🦸‍♂️ r/marvelmemes
 - 💻 r/ProgrammerHumor
+- 😊 r/me_irl
 
 You can easily customize the list by adding more subreddits in the code.
 

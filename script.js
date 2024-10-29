@@ -5,7 +5,8 @@ let subredditName = document.getElementById("subreddit");
 let url = "https://meme-api.com/gimme/";
 
 let subreddits = ["raimimemes","marvelmemes","ProgrammerHumor","catmemes","wholesomememes","dogmemes",
-    "me_irl","dankmemes","Animemes","funny"];
+    "me_irl","dankmemes","Animemes","funny", "memes", "wholesomememes"
+    ,"AdviceAnimals", "comedyheaven"];
 
 let getMeme = () => {
     let randomSubreddit = subreddits[Math.floor(Math.random() * subreddits.length)];

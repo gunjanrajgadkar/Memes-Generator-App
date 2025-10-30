@@ -5,7 +5,7 @@ let subredditName = document.getElementById("subreddit");
 let url = "https://meme-api.com/gimme/";
 
 let subreddits = ["raimimemes","marvelmemes","ProgrammerHumor","catmemes","wholesomememes","dogmemes",
-    "me_irl","dankmemes","Animemes","funny", "memes", "wholesomememes"
+    "me_irl","dankmemes","Animemes","funny", "memes", "wholesomememes","PrequelMemes",
     ,"AdviceAnimals", "comedyheaven","MadeMeSmile","animememes","wholesomeanimemes","WWEMemes"];
 
 let getMeme = () => {
